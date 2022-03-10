@@ -1,0 +1,39 @@
+
+body{
+    
+    header{ 
+        
+        nav{
+
+            background-color: var( --primary-color);
+            a{
+                
+                color: white;        
+                img{
+                    width: 70px;
+                    height: 45px;
+                }
+                &:hover{
+                    color: white;
+                }
+            }
+            .nav_link {
+                margin-top: 10px;
+                
+                a{
+                    padding-left: 10px;
+                    color: white;
+                    &:hover{
+                        color: white;
+                    }
+                    i{
+                        padding-right: 20px;
+                    }
+
+                }
+                
+                
+            }
+        }
+    }
+}

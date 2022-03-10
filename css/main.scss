@@ -1,0 +1,28 @@
+*, *::before, *::after{
+    // Ces paramètres seront respecté par défaut tout au long du projet
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;  
+}
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+// footer
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+}
+.bord{
+        border: 3px solid #00917C;
+}
+.fa{
+    color: white;
+}
+body{
+    a{
+        text-decoration: none;
+    }
+}
