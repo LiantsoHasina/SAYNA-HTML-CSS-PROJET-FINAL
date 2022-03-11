@@ -1,9 +1,52 @@
 
 body{
-    .head-form{
-        background-color: red;
-    }
     
+    .head-form{
+        
+        h3{
+            color: #f7f7f7;
+            text-shadow: 1px 1px 2px black;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        
+        padding-top: 85px;
+        background-image: url(./Asset/group-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .formulaire{
+            background-color:rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            width: 50%;
+            div{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                span{
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin-left: 40%;
+                }
+                form{
+                    margin-left: 5%;
+                    input, button{
+                        height: 40px;
+                    }
+                    input{
+                        border: none;
+                        border-radius: 3px;
+                    }
+                }
+
+        }
+        .info{
+            background-color:white;
+            
+        }
+        // 
+    }
+    }
+
     main{
         margin-top: 20px;
         .details{
@@ -26,4 +69,5 @@ body{
         
     }
     
+
 }
