@@ -1,39 +1,39 @@
 
 body{
-    
-    header{ 
+    main{
+        margin-top: 20px;
+        h2{
+            color: var(--primary-color);
+        }
+        .cards-collection_1{        
+              
+            div{
+            
+                background: var(--primary-color); 
+                border-radius: 0;
+                div{
+                    .my{
+                        padding-top: 5px;
+                        width: 300px;
+                        border-radius: 50%;
+                        
+                        
+                        
+                    }
+                    div{
+                        .btn{
+                            background-color: #fff;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
         
-        nav{
+            
+        }
+        .cards-collection_2{
 
-            background-color: var( --primary-color);
-            a{
-                
-                color: white;        
-                img{
-                    width: 70px;
-                    height: 45px;
-                }
-                &:hover{
-                    color: white;
-                }
-            }
-            .nav_link {
-                margin-top: 10px;
-                
-                a{
-                    padding-left: 10px;
-                    color: white;
-                    &:hover{
-                        color: white;
-                    }
-                    i{
-                        padding-right: 20px;
-                    }
-
-                }
-                
-                
-            }
         }
     }
+    
 }

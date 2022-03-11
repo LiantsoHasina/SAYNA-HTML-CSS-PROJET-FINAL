@@ -26,8 +26,66 @@
 .about_logo {
   width: 30px;
   height: 30px;
+  font-weight: bolder;
+}
+
+.img_resized {
+  width: 80px;
+  height: 50px;
 }
 
 body a {
   text-decoration: none;
+}
+
+body header nav {
+  background-color: var(--primary-color);
+}
+
+body header nav a {
+  color: white;
+}
+
+body header nav a img {
+  width: 70px;
+  height: 45px;
+}
+
+body header nav a:hover {
+  color: white;
+}
+
+body header nav .nav_link {
+  margin-top: 10px;
+}
+
+body header nav .nav_link a {
+  padding-left: 10px;
+  color: white;
+}
+
+body header nav .nav_link a:hover {
+  color: white;
+}
+
+body header nav .nav_link a i {
+  padding-right: 20px;
+}
+
+body footer {
+  background-color: var(--gray-footer);
+  color: white;
+}
+
+body footer .container-one, body footer .container-two {
+  padding-top: 10px;
+  text-decoration: underline overline;
+  text-decoration-style: solid;
+}
+
+body footer img {
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
