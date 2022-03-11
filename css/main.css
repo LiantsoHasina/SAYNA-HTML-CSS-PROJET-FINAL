@@ -28,6 +28,26 @@
   height: 50px;
 }
 
+.bg-primary-blue {
+  background-color: var(--primary-blue);
+}
+
+.bg-primary-gray {
+  background-color: var(--primary-gray);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.fc-primary-color {
+  color: var(--primary-color);
+}
+
+.fc-primary-gray {
+  color: var(--primary-gray);
+}
+
 body a {
   text-decoration: none;
 }
