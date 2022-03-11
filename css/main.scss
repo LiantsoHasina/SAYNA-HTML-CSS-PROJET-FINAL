@@ -22,11 +22,7 @@
 .fa{
     color: white;
 }
-.about_logo{
-    width: 30px;
-    height: 30px;
-    font-weight: bolder;
-}
+
 .img_resized{
     width: 80px;
     height: 50px;
@@ -38,6 +34,7 @@ body{
     header{ 
         
         nav{
+            font-size: 22px;
 
             background-color: var( --primary-color);
             a{
@@ -52,19 +49,34 @@ body{
                 }
             }
             .nav_link {
-                margin-top: 10px;
+                margin-top: 5px;
+                a, i {
+                    &:hover{
+                        color: var(--primary-gray);
+                    }
+                }
                 
+            
                 a{
                     padding-left: 10px;
                     color: white;
-                    &:hover{
-                        color: white;
-                    }
                     i{
                         padding-right: 20px;
+                        
                     }
+                    .about_logo{
+                        width: 40px;
+                        height: 40px;
+                        
+                        fill: white;
+                        &:hover{
+                            fill: var(--primary-gray);
+                        }
+                    }
+                    
 
                 }
+                
                 
                 
             }

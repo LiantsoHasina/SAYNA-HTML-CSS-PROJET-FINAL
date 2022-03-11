@@ -23,12 +23,6 @@
   color: white;
 }
 
-.about_logo {
-  width: 30px;
-  height: 30px;
-  font-weight: bolder;
-}
-
 .img_resized {
   width: 80px;
   height: 50px;
@@ -39,6 +33,7 @@ body a {
 }
 
 body header nav {
+  font-size: 22px;
   background-color: var(--primary-color);
 }
 
@@ -56,7 +51,11 @@ body header nav a:hover {
 }
 
 body header nav .nav_link {
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+body header nav .nav_link a:hover, body header nav .nav_link i:hover {
+  color: var(--primary-gray);
 }
 
 body header nav .nav_link a {
@@ -64,12 +63,18 @@ body header nav .nav_link a {
   color: white;
 }
 
-body header nav .nav_link a:hover {
-  color: white;
-}
-
 body header nav .nav_link a i {
   padding-right: 20px;
+}
+
+body header nav .nav_link a .about_logo {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+
+body header nav .nav_link a .about_logo:hover {
+  fill: var(--primary-gray);
 }
 
 body footer {
