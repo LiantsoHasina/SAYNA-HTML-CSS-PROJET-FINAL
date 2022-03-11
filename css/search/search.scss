@@ -42,4 +42,27 @@ body{
             }
         }
     }
+    main{
+        text-align: center;
+        color: var(--primary-gray);
+        div{
+            margin: 20px 0 20px 0;
+            span{
+                text-transform: capitalize;
+                
+                
+            }
+        }
+        
+        ul{
+            
+            li{
+                img{
+                    width: 300px;
+                    background-color: var(--primary-color);
+                    
+                }
+            }
+        }
+    }
 }

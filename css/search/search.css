@@ -43,3 +43,21 @@ body .filter ul li:last-child i {
 body .filter ul li:last-child span {
   color: white;
 }
+
+body main {
+  text-align: center;
+  color: var(--primary-gray);
+}
+
+body main div {
+  margin: 20px 0 20px 0;
+}
+
+body main div span {
+  text-transform: capitalize;
+}
+
+body main ul li img {
+  width: 300px;
+  background-color: var(--primary-color);
+}
