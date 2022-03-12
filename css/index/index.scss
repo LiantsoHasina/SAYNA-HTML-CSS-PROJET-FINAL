@@ -43,10 +43,11 @@ body{
         // 
     }
     .this{
-            
+                
             .info{
                 background-color:rgba(255, 255, 255, 0.8);
                 margin-left: 45%;
+                
                 font-weight: bolder;
         
                 
@@ -83,12 +84,11 @@ body{
 
 }
 
-@media (max-width:768){
+@media only screen and (max-width: 768px) {
     body{
-        .info{
-            margin-left: 40%;
-            background-color: red;
+
         }
-    }
+        
+    
     
 }

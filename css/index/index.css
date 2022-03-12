@@ -69,10 +69,3 @@ body main .details img {
   width: 100%;
   border-radius: 50%;
 }
-
-@media (max-width: 768) {
-  body .info {
-    margin-left: 40%;
-    background-color: red;
-  }
-}
