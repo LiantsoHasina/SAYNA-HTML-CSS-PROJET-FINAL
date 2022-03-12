@@ -72,5 +72,13 @@ body{
                 letter-spacing: 20px;
             }
         }
+        .map_direction{
+            text-align: center;
+            div{
+                svg{
+                    fill: var(--primary-color);
+                }
+            }
+        }
     }
 }

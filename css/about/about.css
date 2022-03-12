@@ -68,3 +68,11 @@ body main .more_details .container {
   fill: var(--gray-footer);
   letter-spacing: 20px;
 }
+
+body main .map_direction {
+  text-align: center;
+}
+
+body main .map_direction div svg {
+  fill: var(--primary-color);
+}
