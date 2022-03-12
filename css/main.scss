@@ -5,6 +5,8 @@
     box-sizing: border-box;
     list-style-type: none;  
 }
+
+// Déclaration des variables
 :root{
     --primary-color: #d35649;
     --primary-gray: #98a5a5;
@@ -17,9 +19,8 @@
     --gray-footer-btn: #444;
     
 }
-.bord{
-        border: 3px solid #00917C;
-}
+
+// classes utilisé comme variables dans html
 .fa{
     color: white;
 }
