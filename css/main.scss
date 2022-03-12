@@ -49,6 +49,7 @@
 body{
     a{
         text-decoration: none;
+        color: white;
     }
     header{ 
         
@@ -103,22 +104,71 @@ body{
     }
     
     footer{
-        background-color: var(--gray-footer);
+        background-color: black;
         color: white;
-        .container-one, .container-two{
-            padding-top: 10px;
-            text-decoration: underline overline;
-            text-decoration-style: solid;
+        .reach-us{
+            ul{
             
-            
-            
+                li{
+                    display: inline-block;
+                    padding: 10px;
+                    border-style: solid none solid none;
+                    border-color: white;
+                    .bords{
+                        padding-left: 0;
+                        li{
+                            border-style: none;
+                            
+                        }
+                    }
+                    
+                    
+                    
+                }
+                .map-parent{
+    
+                    border-style: solid;
+                    border-radius: 55%;
+                    .map{
+                        padding-top: 10px;
+                        fill: white;
+                    }
+                }
+                
+                
+            }
         }
-        img{
-            width: 100px;
-            height: 60px;
-            border-radius: 50%;
-            border: 1px solid white;
-            
+        .feedback{
+            .underlined{
+                color: var(--primary-color);
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            ul{
+                .sub{
+                    form{
+                        input{
+                            border: 1px solid var(--gray-footer);
+                            background:none;
+                            padding-left: 5px;
+                        }
+                        button{
+                            background-color: var(--gray-footer-btn);
+                            color: white;
+                            width: 60px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    .social-ref{
+        background-color: var(--gray-footer);
+        .networks{
+            width: 50px;
         }
     }
 }
