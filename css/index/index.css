@@ -15,6 +15,7 @@ body .head-form h3 {
 body .head-form .formulaire {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
+  text-align: center;
   width: 50%;
 }
 
@@ -26,7 +27,6 @@ body .head-form .formulaire div {
 body .head-form .formulaire div span {
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 40%;
 }
 
 body .head-form .formulaire div form {
@@ -42,12 +42,18 @@ body .head-form .formulaire div form input {
   border-radius: 3px;
 }
 
-body .head-form .formulaire .info {
-  background-color: white;
+body .head-form .this .info {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 45%;
+  font-weight: bolder;
 }
 
 body main {
   margin-top: 20px;
+}
+
+body main h2 {
+  margin-bottom: 50px;
 }
 
 body main .details {
@@ -63,4 +69,10 @@ body main .details img {
   width: 100%;
   border-radius: 50%;
 }
-/*# sourceMappingURL=index.css.map */
+
+@media (max-width: 768) {
+  body .info {
+    margin-left: 40%;
+    background-color: red;
+  }
+}

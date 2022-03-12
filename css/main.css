@@ -49,6 +49,10 @@
   color: var(--primary-gray);
 }
 
+.fs_feedback {
+  font-size: 30px;
+}
+
 body a {
   text-decoration: none;
   color: white;
@@ -109,6 +113,7 @@ body footer .reach-us ul li {
   padding: 10px;
   border-style: solid none solid none;
   border-color: white;
+  text-transform: uppercase;
 }
 
 body footer .reach-us ul li .bords {
@@ -117,6 +122,11 @@ body footer .reach-us ul li .bords {
 
 body footer .reach-us ul li .bords li {
   border-style: none;
+  font-weight: bold;
+}
+
+body footer .reach-us ul li .bords li a:hover {
+  color: var(--primary-gray);
 }
 
 body footer .reach-us ul .map-parent {
@@ -129,6 +139,14 @@ body footer .reach-us ul .map-parent .map {
   fill: white;
 }
 
+body footer .reach-us ul .map-parent .map:hover {
+  fill: var(--primary-gray);
+}
+
+body footer .feedback {
+  text-align: center;
+}
+
 body footer .feedback .underlined {
   color: var(--primary-color);
 }
@@ -137,22 +155,44 @@ body footer .feedback .underlined:hover {
   text-decoration: underline;
 }
 
-body footer .feedback ul .sub form input {
+body footer .feedback .feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+body footer .feedback .feedback-grid .sub form input {
   border: 1px solid var(--gray-footer);
   background: none;
   padding-left: 5px;
+  height: 40px;
 }
 
-body footer .feedback ul .sub form button {
+body footer .feedback .feedback-grid .sub form button {
   background-color: var(--gray-footer-btn);
   color: white;
-  width: 60px;
+  text-align: center;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 70px;
 }
 
-body .social-ref {
+body .bottom {
   background-color: var(--gray-footer);
 }
 
-body .social-ref .networks {
-  width: 50px;
+body .bottom .social-ref .networks {
+  width: 40px;
+  height: 50px;
+  fill: var(--primary-gray);
+  padding-left: 20px;
+}
+
+body .bottom .social-ref .networks:hover {
+  fill: var(--primary-blue);
+}
+
+body .bottom .social-ref p {
+  color: var(--primary-gray);
+  margin-top: 20px;
+  font-weight: 900;
 }

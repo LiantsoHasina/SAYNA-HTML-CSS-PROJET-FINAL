@@ -45,6 +45,9 @@
 .fc-primary-gray{
     color: var(--primary-gray);
 }
+.fs_feedback{
+    font-size: 30px;
+}
 
 body{
     a{
@@ -114,10 +117,17 @@ body{
                     padding: 10px;
                     border-style: solid none solid none;
                     border-color: white;
+                    text-transform: uppercase;
                     .bords{
                         padding-left: 0;
                         li{
                             border-style: none;
+                            font-weight: bold;
+                            a{
+                                &:hover{
+                                    color: var(--primary-gray);
+                                }
+                            }
                             
                         }
                     }
@@ -132,6 +142,9 @@ body{
                     .map{
                         padding-top: 10px;
                         fill: white;
+                        &:hover{
+                            fill: var(--primary-gray);
+                        }
                     }
                 }
                 
@@ -139,24 +152,31 @@ body{
             }
         }
         .feedback{
+            text-align: center;
             .underlined{
                 color: var(--primary-color);
                 &:hover{
                     text-decoration: underline;
                 }
             }
-            ul{
+            .feedback-grid{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
                 .sub{
                     form{
                         input{
                             border: 1px solid var(--gray-footer);
                             background:none;
                             padding-left: 5px;
+                            height: 40px;
                         }
                         button{
                             background-color: var(--gray-footer-btn);
                             color: white;
-                            width: 60px;
+                            text-align: center;
+                            height: 45px;
+                            border: 1px solid rgba(255, 255, 255, 0.3);
+                            width: 70px;
                         }
                     }
                 }
@@ -165,10 +185,25 @@ body{
         }
         
     }
-    .social-ref{
+    .bottom{
         background-color: var(--gray-footer);
-        .networks{
-            width: 50px;
+        .social-ref{
+        
+            .networks{
+                width: 40px;
+                height: 50px;
+                fill: var(--primary-gray);
+                padding-left: 20px;
+                &:hover{
+                    fill: var(--primary-blue);
+                }
+            }
+            p{
+                color: var(--primary-gray);
+                margin-top: 20px;
+                font-weight: 900;
+            }
         }
     }
+    
 }

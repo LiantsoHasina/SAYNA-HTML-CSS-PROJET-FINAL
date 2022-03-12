@@ -18,6 +18,7 @@ body{
         .formulaire{
             background-color:rgba(255, 255, 255, 0.8);
             border-radius: 5px;
+            text-align: center;
             width: 50%;
             div{
                 padding-top: 20px;
@@ -25,7 +26,6 @@ body{
                 span{
                     text-transform: uppercase;
                     font-weight: 600;
-                    margin-left: 40%;
                 }
                 form{
                     margin-left: 5%;
@@ -39,16 +39,27 @@ body{
                 }
 
         }
-        .info{
-            background-color:white;
-            
-        }
+        
         // 
     }
+    .this{
+            
+            .info{
+                background-color:rgba(255, 255, 255, 0.8);
+                margin-left: 45%;
+                font-weight: bolder;
+        
+                
+            }
+    }
+    
     }
 
     main{
         margin-top: 20px;
+        h2{
+            margin-bottom: 50px;
+        }
         .details{
             line-height: 60px;
             
@@ -70,4 +81,14 @@ body{
     }
     
 
+}
+
+@media (max-width:768){
+    body{
+        .info{
+            margin-left: 40%;
+            background-color: red;
+        }
+    }
+    
 }
